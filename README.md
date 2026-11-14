@@ -4,7 +4,7 @@ Third-party FFmpeg source materials and build scripts prepared for ArcSpan Studi
 
 ## Current status
 
-**The source release for ArcSpan Studio 4.23.0-beta.1 is an unpublished draft. Full corresponding-source verification and installer redistribution approval are still pending.** Public users cannot download draft assets. No ArcSpan installer is distributed by this repository.
+**The verified source-hosting release for ArcSpan Studio 4.23.0-beta.1 is an unpublished draft prepared for final owner approval. Installer publication and patent clearance remain separate decisions.** Public users cannot download draft assets. No ArcSpan installer is distributed by this repository.
 
 Planned source release tag: `v4.23.0-beta.1-ffmpeg-btbn-2026-11-13`.
 
@@ -33,7 +33,7 @@ The ZIP contains `cache.tar.gz`; its `.cache/downloads/` directory includes 129 
 
 All 20 draft assets report uploaded. The nine cache-part sizes and GitHub digests match the independently checked originals and manifest. Reassembly, outer ZIP CRC, all 129 dependency archive hashes, XZ integrity, inner tar listings and aliases passed. The reassembly helper was reviewed and its digest matches the uploaded file.
 
-Both exact-commit source ZIPs are now independently verified: hashes match the existing draft assets; ZIP CRC tests passed; all 10,424 FFmpeg files and 294 build-script files match the pinned upstream Git blobs with no missing or unexpected files. Executable bits match. A local configuration-generation test selected 97 dependency cache archives, all present under the required hashed filenames. The exact bundled FFmpeg executable correspondence, final dependency/notice coverage and historical rebuild procedure remain under review. No GPL-compliance certification is made.
+Both exact-commit source ZIPs are now independently verified: hashes match the existing draft assets; ZIP CRC tests passed; all 10,424 FFmpeg files and 294 build-script files match the pinned upstream Git blobs with no missing or unexpected files. Executable bits match. A local configuration-generation test selected 97 dependency cache archives, all present under the required hashed filenames. The owner reports the replacement installer and installed executable correspondence tests complete, with all six FFmpeg legal files installed. The [historical source/build record and release decision](BUILDING-2026-11-13.md) document exact source selection, the tested snapshot-pinning adaptation, copyright notice findings and reproducibility limits. Source publication and anonymous access checks remain pending. No patent or general legal clearance is declared.
 
 ## Licensing
 
