@@ -33,7 +33,7 @@ The ZIP contains `cache.tar.gz`; its `.cache/downloads/` directory includes 129 
 
 All 20 draft assets report uploaded. The nine cache-part sizes and GitHub digests match the independently checked originals and manifest. Reassembly, outer ZIP CRC, all 129 dependency archive hashes, XZ integrity, inner tar listings and aliases passed. The reassembly helper was reviewed and its digest matches the uploaded file.
 
-Both exact-commit source ZIPs are attached, with upload hashes recorded in the draft. Their contents still require independent inspection. The exact bundled FFmpeg executable correspondence, enabled dependency/notice coverage and historical rebuild procedure also remain under review. No GPL-compliance certification is made.
+Both exact-commit source ZIPs are now independently verified: hashes match the existing draft assets; ZIP CRC tests passed; all 10,424 FFmpeg files and 294 build-script files match the pinned upstream Git blobs with no missing or unexpected files. Executable bits match. A local configuration-generation test selected 97 dependency cache archives, all present under the required hashed filenames. The exact bundled FFmpeg executable correspondence, final dependency/notice coverage and historical rebuild procedure remain under review. No GPL-compliance certification is made.
 
 ## Licensing
 
